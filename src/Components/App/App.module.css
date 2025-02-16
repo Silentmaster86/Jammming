@@ -5,37 +5,39 @@ html,
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h1 {
-  padding: .77rem 0;
-  background-color: #010c3f;
+  margin: 0;
+  padding: 1.2rem 0;
+  background-color: #010620;
+  background-size: cover;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.88rem;
-  color: #fff;
+  color: #d3d7fa;
 }
 
 h1 .highlight {
-  color: #6c41ec;
+  color: #f7ddf9;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.55rem;
+  font-size: 1.75rem;
 }
 
 .App {
   height: 100%;
-  padding: 0 17% 10% 17%;
-  background-color: #010c3f;
+  padding: 0 18% 2% 17%;
+  background-image: url('./two_worlds.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #bbfbf9;
 }
 
 .App-playlist {

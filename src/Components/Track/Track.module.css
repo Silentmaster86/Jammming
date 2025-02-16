@@ -6,7 +6,7 @@
 
 .Track-action {
     cursor: pointer;
-    padding: 1.5rem;
+    padding: 1.55rem;
     font-size: 1.05rem;
     transition: color .25s;
     border: 0px;
@@ -27,8 +27,8 @@
 }
 
 .Track-information h3 {
-    margin-top: 2rem;
-    margin-bottom: 1.05rem;
+    margin-top: 1rem;
+    margin-bottom: 0.55rem;
 }
 
 .Track-information p {

@@ -3,12 +3,19 @@ import styles from "./Playlist.module.css";
 import Tracklist from "../Tracklist/Tracklist";
 
 function Playlist(props) {
+    function handleNameChange({ target }) {
+        props.onNameChange(target.value);
+    }
     return (
-        <div className="{styles.Playlist}">
-            <input placeholder="Enter name of playlist" />
+        <div className={styles.Playlist}>
+            <input defaultValue={"New playlist"} onChange={handleNameChange} />
             {/* <!-- Add a TrackList component --> */}
-            <Tracklist userSearchResults={props.playlistTracks} />
-            <button className={styles["Playlist-save"]}>
+            <Tracklist
+                userSearchResults={props.playlistTracks}
+                onRemove={props.onRemove}
+                isRemoval={true}
+            />
+            <button className={styles["Playlist-save"]} onClick={props.onSave}>
                 SAVE TO SPOTIFY
             </button>
         </div>

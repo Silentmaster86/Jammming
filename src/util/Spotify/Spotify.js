@@ -1,6 +1,6 @@
 let accessToken = "";
 const clientID = "e4a788499bc94b389b1b7c9a5c788ec3";
-const redirectUrl = window.location.origin;
+const redirectUrl = "https://silent86.surge.sh";
 
 const Spotify = {
   getAccessToken() {

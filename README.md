@@ -68,3 +68,87 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 🎵 Spotify Playlist Creator
+
+A React-based web app that allows users to **search for songs**, **create custom playlists**, and **save them directly to their Spotify accounts**.
+
+![Spotify App Screenshot](./preview.png) <!-- Optional preview image if you have one -->
+
+---
+
+## 🚀 Features
+
+- 🔍 Search tracks from Spotify’s vast music library
+- ➕ Add and remove songs from your playlist
+- ✏️ Name your playlist
+- 💾 Save your playlist directly to your Spotify account
+- 🎧 Built with React, Styled Components, and the Spotify Web API
+
+---
+
+## 🧪 Live Demo
+
+🌐 [Launch the app](https://silent86.netlify.app) or 
+🌐 [Launch the app](https://silent86.surge.sh)
+> ⚠️ Only pre-approved Spotify users can use this app due to API restrictions (see below).
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Functional components, hooks
+- **Spotify Web API** – For search and playlist creation
+- **Styled Components** – For styling
+- **Netlify** – Deployed frontend
+
+---
+
+## 🔐 Authorization & Access
+
+This app uses Spotify’s OAuth2 flow and is currently running in **development mode**, which means:
+
+> Only users added manually in the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) can access the app.
+
+### 🧾 Steps to Use:
+1. **Request Access**  
+   Contact me to be added as an authorized user in the Spotify developer app settings.
+2. **Log in with Spotify**  
+   After clicking "Search" or any action requiring access, you’ll be redirected to Spotify’s login/consent screen.
+3. **Enjoy!**  
+   Search tracks, build your playlist, and save it to your Spotify account.
+
+---
+
+## 📁 Getting Started Locally
+
+```bash
+git clone https://github.com/yourusername/spotify-playlist-creator.git
+cd spotify-playlist-creator
+npm install
+npm start
+
+Then set the following in your .env file or directly in your Spotify.js:
+
+REACT_APP_SPOTIFY_CLIENT_ID=your_client_id
+REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000
+
+Make sure your redirect URI matches the one in your Spotify app settings.
+
+---
+
+### 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+🙋 Contact
+
+Built by [Silentmaster86](https://github.com/Silentmaster86)
+💬 For access or questions, feel free to message me!
+
+---
+
+Let me know if you'd like it tailored more toward recruiters, developers, or users - or if you want help uploading it to your GitHub repo.

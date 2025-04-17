@@ -128,7 +128,7 @@ git clone https://github.com/yourusername/spotify-playlist-creator.git
 cd spotify-playlist-creator
 npm install
 npm start
-
+```
 Then set the following in your .env file or directly in your Spotify.js:
 
 REACT_APP_SPOTIFY_CLIENT_ID=your_client_id

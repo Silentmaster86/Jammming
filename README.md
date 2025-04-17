@@ -131,23 +131,23 @@ npm start
 ```
 Then set the following in your .env file or directly in your Spotify.js:
 
-REACT_APP_SPOTIFY_CLIENT_ID=your_client_id
-REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000
+- REACT_APP_SPOTIFY_CLIENT_ID=your_client_id
+- REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000
 
 Make sure your redirect URI matches the one in your Spotify app settings.
 
 ---
 
-### 📄 License
+## 📄 License
 
 This project is open source and available under the MIT License.
 
 ---
 
-🙋 Contact
+## 🙋 Contact
 
-Built by [Silentmaster86](https://github.com/Silentmaster86)
-💬 For access or questions, feel free to message me!
+- Built by [Silentmaster86](https://github.com/Silentmaster86)
+- 💬 For access or questions, feel free to message me!
 
 ---
 

@@ -1,7 +1,6 @@
 let accessToken = "";
 const clientID = "e4a788499bc94b389b1b7c9a5c788ec3";
-// const redirectUrl = "http://localhost:3000";
-const redirectUrl = "https://silentmaster86.surge.sh";
+const redirectUrl = "https://silent86.netlify.app";
 
 const Spotify = {
   getAccessToken() {
